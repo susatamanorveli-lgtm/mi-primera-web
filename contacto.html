@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor & Brasa | Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Sabor<span>&</span>Brasa</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="proyectos.html">Menú</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <div class="form-wrapper">
+            <h2 class="section-title">Reserva tu Mesa</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" id="nombre" required placeholder="Tu nombre completo">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="email" required placeholder="correo@ejemplo.com">
+                </div>
+                <div class="form-group">
+                    <label>Mensaje o Alergias</label>
+                    <textarea id="mensaje" rows="5" required placeholder="Cuéntanos cómo podemos atenderte mejor..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
